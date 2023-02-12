@@ -15,7 +15,7 @@ const Jonathan: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center bg-slate-500">
-        <h1 className="pb-8 text-5xl font-extrabold text-slate-700">Hi, I'm Jonathan.</h1>
+        <h1 className="pb-8 text-5xl font-extrabold text-slate-700">Hi, Im Jonathan.</h1>
         <Link
         className="text-white hover:decoration-inherit transition duration-300 ease-in-out"
         href="/"

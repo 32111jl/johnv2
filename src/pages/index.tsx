@@ -17,13 +17,13 @@ const Home: NextPage = () => {
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
         <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
           <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
-            Hi, Im <span className="text-[hsl(280,100%,70%)]">Jonathan</span>.
+            <p>Hi, I'm <span className="text-[hsl(280,100%,70%)]">Jonathan</span>.</p>
           </h1>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
             <Link
               className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
               href="about"
-              target="_blank"
+              //target="_blank"
             >
               <h3 className="text-2xl font-bold">Go to my page →</h3>
               <div className="text-lg">
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
           <p className="text-2xl text-white">
             {hello.data ? hello.data.greeting : "Loading tRPC query..."}
           </p>
-          <div className="hero min-h-screen bg-base-200">
+          {/* <div className="hero min-h-screen bg-base-200">
             <div className="hero-content text-center">
               <div className="max-w-md">
                 <h1 className="text-5xl font-bold">Hello there</h1>
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
                 <button className="btn btn-primary">Get Started</button>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </main>
     </>
